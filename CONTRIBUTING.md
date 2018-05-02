@@ -8,7 +8,7 @@ This way we can ensure that your precious work is not in vain.
 
 In most cases if a bug is discovered, an issue may be raised, also based on the development lifecyle, issues can be selected from already raised ones. 
 
-### Setup
+### Setup for Ubuntu and related systems
 For this project we make use of the laravel framework. In order to contribute code to this project,
 
 1. **make sure your system(server) meets the following specifications;**
@@ -60,10 +60,9 @@ Steps
 Run the following commands on the terminal 
 
 	1.  `sudo apt-get install php7.1-mbstring`
-	2.  `sudo apt-get install php7.1-mbstring`
-	3.  `sudo apt-get install php-common php-mbstring php-xml`
-	4.  `composer install`
-	5.	`php artisan serve`
+	2.  `sudo apt-get install php-common php-mbstring php-xml`
+	3.  `composer install`
+	4.  `php artisan serve`
 
 3. Open `http://127.0.0.1:8000>` on the browser of your choice .
    The brower should display an error page here saying something went wrong.
